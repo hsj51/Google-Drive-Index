@@ -312,17 +312,6 @@ async function handleRequest(request) {
                 <label class="mdui-textfield-label">Drive Folder/Shared Drive ID instead of root</label>
                 <input class="mdui-textfield-input" type="text" value="root" name="root"/>
             </div>
-            <h4>Disabled: Now Enter Details inside the code, multiple users supported.</h4>
-            <div class="mdui-textfield">
-                <i class="mdui-icon material-icons">account_circle</i>
-                <label class="mdui-textfield-label">Set Username (Disabled)</label>
-                <input class="mdui-textfield-input" type="text" name="user" readonly>
-            </div>
-            <div class="mdui-textfield">
-                <i class="mdui-icon material-icons">enhanced_encryption</i>
-                <label class="mdui-textfield-label">Set Password (Disabled)</label>
-                <input class="mdui-textfield-input" type="password" name="root_pass" readonly>
-            </div>
             <div class="mdui-textfield">
                 <input class="mdui-btn mdui-color-theme-accent mdui-ripple" type='submit' value="2. Generate Code"/>
             </div>
